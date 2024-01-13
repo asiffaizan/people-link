@@ -1,0 +1,66 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%; 
+    padding: 2vw;
+    background-color: black;
+    color: white;
+}
+
+/* Common */
+
+.logo,
+.search,
+.social {
+    width: 20%;
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    line-height: 0;
+    width: 15%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo img{
+    width: 30%;
+}
+
+/* Search */
+
+.search {
+    width: 40%;
+}
+
+.search input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+/* Social */
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a {
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
